@@ -1,11 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T02:04:37.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JfaE-9u8d0qCJ238YmPF" version="24.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T02:24:13.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="pHMmnRdYW1UJkCz742Tw" version="24.7.0" type="github">
   <diagram name="第 1 页" id="Mc44zrtlsKlzKyASbJJS">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_gwDfWsH738DIbGEGJ0N-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;104协议流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_gwDfWsH738DIbGEGJ0N-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;104协议流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="344" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;启动线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ReviceMsgTh&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;获取消息线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-25" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ChargeControlTh&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="160" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;获取控制充电线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;RealRequestTh&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="220" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w5WDI5QlIvCnCn-2sEUz-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;实时数据请求线程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="220" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
