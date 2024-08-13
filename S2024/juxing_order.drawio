@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="tXZ4u0IOBIhNsoZZR4IO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="297kZPuv_hsM1-d0PaCg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-2" target="297kZPuv_hsM1-d0PaCg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前置已支付&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-3" target="297kZPuv_hsM1-d0PaCg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;待启动&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-4" target="297kZPuv_hsM1-d0PaCg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-4" target="297kZPuv_hsM1-d0PaCg-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="75" />
+              <mxPoint x="340" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;启动失败&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="297kZPuv_hsM1-d0PaCg-21">
+          <mxGeometry x="0.0783" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;启动中&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-5" target="297kZPuv_hsM1-d0PaCg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-5" target="297kZPuv_hsM1-d0PaCg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;系统异常中断&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="297kZPuv_hsM1-d0PaCg-22">
+          <mxGeometry x="0.1455" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;充电中&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-6" target="297kZPuv_hsM1-d0PaCg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;充电结束&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-7" target="297kZPuv_hsM1-d0PaCg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;后置待支付&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-8" target="297kZPuv_hsM1-d0PaCg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" target="297kZPuv_hsM1-d0PaCg-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;结算中&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-9" target="297kZPuv_hsM1-d0PaCg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;手工处理&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="297kZPuv_hsM1-d0PaCg-19">
+          <mxGeometry x="-0.0957" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;结算完成&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="840" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-10" value="&lt;font color=&quot;#ffd966&quot; style=&quot;font-size: 18px;&quot;&gt;结算失败(多原因)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="297kZPuv_hsM1-d0PaCg-11" target="297kZPuv_hsM1-d0PaCg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;自动&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="297kZPuv_hsM1-d0PaCg-23">
+          <mxGeometry x="-0.1636" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="297kZPuv_hsM1-d0PaCg-11" value="&lt;font color=&quot;#ffd966&quot; style=&quot;font-size: 18px;&quot;&gt;充电中止(多原因)&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="415" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
